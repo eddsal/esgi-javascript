@@ -45,7 +45,13 @@ console.log(snakeCase('eddy salibi'));
 function leet(string) {
     if (typeof string !== 'string')
         return '';
-      
     return string.replace('A', "4").replace('I', "1").replace('O', "o").replace('U', "_").replace('Y', "7")
 }
 console.log(leet('I WANT TO  WU0Y'));
+
+function verlan(string) {
+    if (typeof string !== 'string')
+        return '';
+    return string.split('').reverse().join('')
+}
+console.log(verlan('eddy salibi'));
