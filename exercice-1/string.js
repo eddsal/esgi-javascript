@@ -55,3 +55,16 @@ function verlan(string) {
     return string.split('').reverse().join('')
 }
 console.log(verlan('eddy salibi'));
+
+
+function yoda(string) {
+    if (typeof string !== 'string')
+        return '';
+    var str = string.split(' ')
+;
+    var firstChar = string.replace(str[1], '')
+    var secondChar = string.replace(str[0], '')
+
+    return secondChar +' '+ firstChar
+}
+console.log(yoda('eddy salibi'));
