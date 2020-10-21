@@ -18,4 +18,5 @@ function type_check_v2(arg, type,arg2) {
         return true
     }
 }
-console
+console.log(type_check_v2('edd', 'edd'))
+console.log(type_check_v2('edd','string'))
