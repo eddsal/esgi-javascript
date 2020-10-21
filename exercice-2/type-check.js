@@ -6,6 +6,7 @@ function type_check_v1(val, type) {
 }
 console.log(type_check_v1(1, 'number'));
 console.log(type_check_v1('edd', 'string'));
+console.log(type_check_v1(['sa'], 'array'));
 
 
 
